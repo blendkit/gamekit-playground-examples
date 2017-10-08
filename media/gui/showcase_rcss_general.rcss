@@ -1,0 +1,115 @@
+body {
+    font-family: Agent Orange;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15;
+}
+
+div {
+    display: block;
+    color: black;
+}
+
+/* 9-patch */
+div.window {
+	background-decorator: tiled-box;
+
+	background-top-left-image: gui_atlas.png 0px 0px 32px 32px;
+	background-top-image: gui_atlas.png stretch 32px 0px 95px 32px;
+	background-top-right-image: gui_atlas.png 95px 0px 128px 32px;
+
+	background-left-image: gui_atlas.png  stretch 0px 32px 32px 95px;  
+	background-center-image: gui_atlas.png repeat-stretch 35px 35px 92px 92px;  
+	background-right-image: gui_atlas.png  stretch 95px 32px 128px 33px;  
+
+	background-bottom-left-image: gui_atlas.png 0px 95px 32px 128px;
+	background-bottom-image: gui_atlas.png  stretch 32px 95px 95px 128px;
+	background-bottom-right-image: gui_atlas.png 95px 95px 128px 128px;
+}
+
+form span {
+	display: block;
+	width: 20%;
+	text-align: right;
+	color: #E79436;
+}
+
+textarea,input.text, input.password, input.checkbox, input.radio {
+	background-color:  #acaa;
+	margin:1px;
+	
+    font-family: Canarsie Slab JL;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15;
+    color: white;
+}
+
+input.checkbox:checked,input.radio:checked {
+	background-color: #ac3;
+}
+
+input.submit {
+	border-width:1px;
+	border-color:#000;
+	background-color: #E77439;
+}
+
+select {
+    display: block;
+    height: 20px;
+	background-color: #E77439;
+	
+}
+
+option {
+	font-family: Agent Orange;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14;
+	background-color: #E77439AA;
+	margin-bottom: 1px;
+}
+
+option:hover {
+	background-color: #F774AAAA;
+}
+
+option:checked {
+    background-color: #E774AAAA;
+}
+
+
+
+div.start-page {
+	margin:auto;
+	width: 70%;
+	height:70%;
+	padding:5%;
+}
+
+div.float {
+	float: left;
+}
+
+div.clearFloat {
+/*	clear: all;*/
+}
+
+div#login {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    background-color: #60771D;	
+}
+
+div#add-score {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    background-color: #60771D;  
+}
+
+div#inputs {
+	
+}

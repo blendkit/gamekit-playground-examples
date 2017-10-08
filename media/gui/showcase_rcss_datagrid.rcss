@@ -1,0 +1,35 @@
+datagridbody
+{
+    color: black;
+    text-align: center;
+            
+    margin-left: 4px;
+    margin-right: 3px;
+    padding: 0px 4px 4px 4px;
+    
+    border-width: 1px;
+    border-color: black;
+            
+}
+
+datagridheader
+{
+    width: auto;
+    height: 25px;
+    padding: 5px 10px 0px 10px;
+    
+    background-color: #aaaa;
+    
+    border-width: 1px;
+    border-color: #555;     
+}
+
+datagrid datagridrow:nth-child(even)
+{
+    background: #FFFFFFA0;
+}
+
+datagrid datagridrow:nth-child(odd)
+{
+    background: #88FF88A0;
+}

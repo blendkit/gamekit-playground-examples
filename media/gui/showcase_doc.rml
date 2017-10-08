@@ -1,0 +1,95 @@
+<rml>
+    <head>
+        <link type="text/css" href="media/gui/showcase_rcss_general.rcss" />
+        <link type="text/css" href="media/gui/showcase_rcss_tabset.rcss" />
+        <link type="text/css" href="media/gui/showcase_rcss_datagrid.rcss" />
+        <link type="text/css" href="media/gui/showcase_rcss_scrollbar.rcss" />
+    </head> 
+    <body>
+		<div class="window start-page">
+	        <tabset>
+	            <tab>Login</tab>
+	            <panel>
+	               <!-- form, events, lua-mapping!  -->
+	                <div id="login">
+	                   <form onsubmit="gui:login()"  onclick="gui:onClick()">
+	                       <span>Username:</span>
+	                       <input id="login_username" type="text" length="10" onclick="gui:onClick()" onchange="gui:onChange()"/>
+	                       <span>Password:</span>
+	                       <input id="login_password" type="password" length="10"  onclick="gui:onClick()" onchange="gui:onChange()"/>
+	                       <div style="width:100%;text-align:right;">
+                              <input type="submit" >login</input>	                       
+	                       </div>
+	                   </form>
+	                </div>
+	            </panel>
+	            
+	            <tab>Scores-C</tab>
+	            <panel>
+	                <h1>Scores</h1>
+	                <div class="scroller">
+		                <datagrid source="highscores.current">
+	                       <col fields="rank" formatter="rank" width="20%">Rank:</col>
+		                   <col fields="name" formatter="rank" width="40%">Name:</col>
+	                       <col fields="score" formatter="rank" width="40%">Score:</col>
+		                </datagrid>
+	                </div>
+	            </panel>
+	            
+                <tab>Scores-A</tab>
+                <panel>
+                    <h1>Scores</h1>
+                    <datagrid source="highscores.alltime">
+                       <col fields="rank" width="20%">Rank:</col>
+                       <col fields="name" width="40%">Name:</col>
+                       <col fields="score" width="40%">Score:</col>
+                    </datagrid>
+                </panel>
+
+                <tab>add score</tab>
+                <panel>
+                    <div id="add-score">
+                       <form onsubmit="gui:addScore()">
+                           <span>Username:</span>
+                           <input id="score_username" type="text" length="10"/>
+                           <span>Score:</span>
+                           <input id="score_score" type="text" length="10"/>
+                           <div style="width:100%;text-align:right;">
+                              <input type="submit" >add score</input>                          
+                           </div>
+                       </form>
+                    </div>
+                </panel>
+                
+                <tab>inputs</tab>
+                <panel>
+                    <div id="inputs">
+                       <form>
+                           <select id="select-field" onChange="gui:onChange()">
+							  <option value="volvo">Volvo</option>
+							  <option value="saab">Saab</option>
+							  <option value="mercedes">Mercedes</option>
+							  <option value="audi">Audi</option>
+							</select>
+							<br/>
+							
+							checkbox:<br/>
+							<input type="checkbox" name="checkbox1" value="ck1"/> Fortuna<br/>
+							<input type="checkbox" name="checkbox2" value="ck2"/> Duesseldorf<br/>
+							
+							radiobtn:<br/>
+							<input type="radio" name="sex" value="male"/>Male<br/>
+                            <input type="radio" name="sex" value="female"/>Female<br/>
+                            
+                            <textarea rows="5" cols="50">
+                            </textarea>
+							
+							Text<br/>
+							Text<br/> 
+                       </form>
+                    </div>
+                </panel>   
+	        </tabset>
+	    </div>
+    </body>
+</rml>

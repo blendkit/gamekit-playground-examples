@@ -1,0 +1,21 @@
+body {
+    font-family: Agent Orange;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15;
+}
+
+div {
+    display: block;
+    color: red;
+}
+
+div.gray-block {
+    width: 50%;
+    height: 10%;
+    background-color: #3338;
+}
+
+div.gray-block:hover {
+    background-color: #d333;
+}
