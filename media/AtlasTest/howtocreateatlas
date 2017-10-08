@@ -1,0 +1,33 @@
+put all the images you want on your atlas in one folder. then call
+
+java -jar $GAMEKIT/Tools/executables/java/gorillaConverter.jar [img-folder] [dest-folder] [gorilla-out-name]
+
+make sure the result is found in regression/res.cfg, then you can use the atlas is gorilla
+
+
+Usually you can also convert bitmap-fonts, but I can't get it to work
+
+
+Internal docs (mayme they can help you more than me):
+-----------------------------------------------------------
+
+Create Fonts and place them in the Image-Folder (with the corresponding .xml/.fnt-file:
+Option1)
+ Tool: $GAMEKIT/Tools/executables/createFont.sh [outdir] [fontname]
+ 
+
+Put all images and fonts in one folder:
+Then call:
+java -jar $GAMEKIT/Tools/executables/java/gorillaConverter.jar [img-folder] [dest-folder] [gorilla-out-name]
+
+
+
+
+Option2)
+ Tool: $GAMEKIT/Tools/executables/win32/bmfont/bmfont.exe
+ Remark: use 32bit colors, use xml-output
+ 
+ 
+ 
+ 
+

@@ -1,0 +1,6 @@
+--- node order before sort ---
+16gkMotionNodeImpl:0
+14gkStateRefImpl:0
+--- node order after sort ---
+16gkMotionNodeImpl:0 0
+14gkStateRefImpl:0 20

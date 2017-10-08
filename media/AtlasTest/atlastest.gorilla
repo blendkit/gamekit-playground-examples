@@ -1,0 +1,8 @@
+[Texture]
+file atlastest.png
+whitepixel 0 0
+
+[Sprites]
+f95 1 1 100 100
+normaltest2 205 1 100 100
+normaltest 103 1 100 100

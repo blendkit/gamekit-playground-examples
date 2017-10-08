@@ -1,0 +1,243 @@
+
+pack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+controller_pair_graphic_lit
+  rotate: false
+  xy: 1, 782
+  size: 336, 229
+  orig: 336, 229
+  offset: 0, 0
+  index: -1
+OUYA_L2
+  rotate: false
+  xy: 1, 619
+  size: 201, 161
+  orig: 201, 161
+  offset: 0, 0
+  index: -1
+OUYA_R2
+  rotate: false
+  xy: 339, 850
+  size: 201, 161
+  orig: 201, 161
+  offset: 0, 0
+  index: -1
+OUYA_L1
+  rotate: false
+  xy: 1, 457
+  size: 176, 160
+  orig: 176, 160
+  offset: 0, 0
+  index: -1
+OUYA_R1
+  rotate: false
+  xy: 542, 851
+  size: 176, 160
+  orig: 176, 160
+  offset: 0, 0
+  index: -1
+OUYA_TOUCHPAD
+  rotate: false
+  xy: 1, 294
+  size: 171, 161
+  orig: 171, 161
+  offset: 0, 0
+  index: -1
+OUYA_LS_LEFT
+  rotate: false
+  xy: 1, 131
+  size: 140, 161
+  orig: 140, 161
+  offset: 0, 0
+  index: -1
+OUYA_DPAD
+  rotate: false
+  xy: 720, 851
+  size: 140, 160
+  orig: 140, 160
+  offset: 0, 0
+  index: -1
+OUYA_LS_RIGHT
+  rotate: false
+  xy: 862, 851
+  size: 140, 160
+  orig: 140, 160
+  offset: 0, 0
+  index: -1
+OUYA_RS_LEFT
+  rotate: false
+  xy: 204, 620
+  size: 140, 160
+  orig: 140, 160
+  offset: 0, 0
+  index: -1
+OUYA_RS_RIGHT
+  rotate: false
+  xy: 346, 688
+  size: 140, 160
+  orig: 140, 160
+  offset: 0, 0
+  index: -1
+OUYA_L3
+  rotate: false
+  xy: 488, 688
+  size: 112, 160
+  orig: 112, 160
+  offset: 0, 0
+  index: -1
+OUYA_LS_DOWN
+  rotate: false
+  xy: 602, 688
+  size: 112, 161
+  orig: 112, 161
+  offset: 0, 0
+  index: -1
+OUYA_LS
+  rotate: false
+  xy: 716, 689
+  size: 112, 160
+  orig: 112, 160
+  offset: 0, 0
+  index: -1
+OUYA_LS_UP
+  rotate: false
+  xy: 830, 689
+  size: 112, 160
+  orig: 112, 160
+  offset: 0, 0
+  index: -1
+OUYA_R3
+  rotate: false
+  xy: 143, 132
+  size: 112, 160
+  orig: 112, 160
+  offset: 0, 0
+  index: -1
+OUYA_RS
+  rotate: false
+  xy: 179, 457
+  size: 112, 160
+  orig: 112, 160
+  offset: 0, 0
+  index: -1
+OUYA_RS_DOWN
+  rotate: false
+  xy: 174, 295
+  size: 112, 160
+  orig: 112, 160
+  offset: 0, 0
+  index: -1
+OUYA_RS_UP
+  rotate: false
+  xy: 293, 458
+  size: 112, 160
+  orig: 112, 160
+  offset: 0, 0
+  index: -1
+OUYA_DPAD_DOWN
+  rotate: false
+  xy: 1, 78
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+OUYA_DPAD_LEFT
+  rotate: false
+  xy: 944, 798
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+OUYA_DPAD_RIGHT
+  rotate: false
+  xy: 346, 635
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+OUYA_DPAD_UP
+  rotate: false
+  xy: 1, 25
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+OUYA_ANALOG
+  rotate: false
+  xy: 55, 81
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+OUYA_A
+  rotate: false
+  xy: 944, 774
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_A_L
+  rotate: false
+  xy: 400, 664
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_O
+  rotate: false
+  xy: 1, 1
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_O_L
+  rotate: false
+  xy: 55, 57
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_SYSTEM
+  rotate: false
+  xy: 106, 107
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_SYSTEM_L
+  rotate: false
+  xy: 944, 750
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_U
+  rotate: false
+  xy: 968, 774
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_U_L
+  rotate: false
+  xy: 424, 664
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_Y
+  rotate: false
+  xy: 400, 640
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+OUYA_Y_L
+  rotate: false
+  xy: 25, 1
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
