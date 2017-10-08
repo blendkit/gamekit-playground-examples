@@ -1,8 +1,8 @@
-01:31:15: Shorthand property 'tween-s' was registered with invalid property 'tween-prop'.
-01:31:15: try to create window!
-01:31:17: WINDOW handle: 0x3c00002
-01:31:17: ok, created window!
-01:31:17: OGRE EXCEPTION(6:FileNotFoundException): 'res.cfg' file not found! in ConfigFile::load at /home/ttrocha/_dev/extprojects/gamekit-pendencies/ogre-git/OgreMain/src/OgreConfigFile.cpp (line 88)
-01:31:18: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource /tmp/gamekit_tmp.blend in resource group General or any other group. in ResourceGroupManager::openResource at /home/ttrocha/_dev/extprojects/gamekit-pendencies/ogre-git/OgreMain/src/OgreResourceGroupManager.cpp (line 757)
-01:31:18: Can't assign material  to SubEntity of Suzanne.001 because this Material does not exist. Have you forgotten to define it in a .material script?
-01:31:18: Can't assign material  to SubEntity of Suzanne because this Material does not exist. Have you forgotten to define it in a .material script?
+03:20:06: Shorthand property 'tween-s' was registered with invalid property 'tween-prop'.
+03:20:06: try to create window!
+03:20:06: WINDOW handle: 0x7800002
+03:20:06: ok, created window!
+03:20:06: OGRE EXCEPTION(6:FileNotFoundException): 'res.cfg' file not found! in ConfigFile::load at /home/ttrocha/_dev/extprojects/gamekit-pendencies/ogre-git/OgreMain/src/OgreConfigFile.cpp (line 88)
+03:20:06: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource /tmp/gamekit_tmp.blend in resource group General or any other group. in ResourceGroupManager::openResource at /home/ttrocha/_dev/extprojects/gamekit-pendencies/ogre-git/OgreMain/src/OgreResourceGroupManager.cpp (line 757)
+03:20:06: Can't assign material  to SubEntity of Suzanne.001 because this Material does not exist. Have you forgotten to define it in a .material script?
+03:20:06: Can't assign material  to SubEntity of Suzanne because this Material does not exist. Have you forgotten to define it in a .material script?
